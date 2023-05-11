@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-2xl;
+      @apply text-center;
+      margin-top: 10px;
+    }
+    h2 {
+      @apply text-xl;
+    }
+    p {
+      padding: 10px
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+}
